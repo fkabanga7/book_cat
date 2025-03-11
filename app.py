@@ -15,7 +15,7 @@ nltk.download('stopwords')
 @st.cache_data
 def load_data():
     # Use the path to your dataset directly
-    file_path = '/Users/FabriceDiamant/Documents/CAI2820cProject/AllITBooks_DataSet 2.xlsx'
+    file_path = 'https://raw.githubusercontent.com/fkabanga7/book_cat/main/AllITBooks_DataSet%202.xlsx'
     return pd.read_excel(file_path)
 
 # Function to preprocess the book descriptions
