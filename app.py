@@ -10,6 +10,7 @@ from sklearn.decomposition import PCA
 
 # Download NLTK stopwords if not already downloaded
 nltk.download('stopwords')
+nltk.download('punkt')
 
 # Function to load the dataset (use st.cache_data for caching)
 @st.cache_data
